@@ -10,9 +10,13 @@ body{
     background-color: #4FA095;
 }
 .box{
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
+    
+    /* border-top-width: 0px;
+    margin-top: 229px; */
+
 }
 .container{
     background-color: #DEF5E5;
@@ -26,6 +30,8 @@ body{
     left: 50%;
     border-radius: 0.62em;
     box-shadow: 0 1.25em 1.8em rgba(8, 21, 65, 0.25);
+    border-top-width: 0px;
+    margin-top: 230px;
    
 }
 
@@ -33,6 +39,9 @@ body{
     display:grid;
     grid-template-columns: 9fr 3fr;
     gap: 1.25em;
+    
+    
+    
 
 }
 #search-btn:hover{
