@@ -66,6 +66,7 @@ body{
     /* height: 100px; */
     font-size: 25px;
 
+
 }
 .search-wraper input:focus{
     outline: none;
@@ -108,5 +109,8 @@ body{
     .container{
         width: 90vw;
         padding: 2em 0.5em;
+    }
+    .search-wraper input{
+        font-size: 10px;
     }
 }
